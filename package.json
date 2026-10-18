@@ -1,0 +1,37 @@
+{
+  "name": "ascope-mcp",
+  "version": "0.1.0",
+  "description": "MCP server for Ascope: App Store keyword rankings, popularity and difficulty scores from your Mac.",
+  "mcpName": "io.github.sarisen/ascope-mcp",
+  "type": "module",
+  "bin": {
+    "ascope-mcp": "index.js"
+  },
+  "files": [
+    "index.js",
+    "README.md",
+    "LICENSE"
+  ],
+  "keywords": [
+    "mcp",
+    "modelcontextprotocol",
+    "aso",
+    "app-store",
+    "keyword-rank",
+    "ascope",
+    "macos"
+  ],
+  "homepage": "https://ascope.app/mcp",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sarisen/ascope-mcp.git"
+  },
+  "bugs": {
+    "url": "https://github.com/sarisen/ascope-mcp/issues"
+  },
+  "author": "Serafettin Sarisen",
+  "license": "MIT",
+  "engines": {
+    "node": ">=18"
+  }
+}
