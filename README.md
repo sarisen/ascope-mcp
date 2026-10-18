@@ -55,15 +55,17 @@ Clients that support MCP over Streamable HTTP can also point straight at `http:/
 | Tool | What it does |
 | --- | --- |
 | `list_apps` | List the apps you track, with keyword counts. |
-| `list_keywords` | Tracked keywords for an app with rank, change, popularity and difficulty. |
+| `list_keywords` | Tracked keywords for an app with rank, change, popularity, difficulty and number of results. |
 | `keyword_history` | Daily rank history of one tracked keyword. |
 | `add_keywords` | Start tracking keywords and fetch their rank, popularity and difficulty. |
 | `remove_keywords` | Stop tracking keywords. |
 | `refresh_rankings` | Fetch fresh rankings for all or some of an app's keywords. |
 | `research_keyword` | Look up any keyword without tracking it: popularity, difficulty, top apps and your rank. |
 | `suggest_keywords` | Keyword ideas from App Store search suggestions, with popularity for the strongest. |
+| `ranked_keywords` | Searches where a tracked app already shows up but isn't tracked yet, from cached lookups. |
+| `app_ratings` | Average rating and rating count per country, with daily history. |
 | `search_apps` | Search the App Store to find an app ID. |
-| `similar_apps` | Apps the App Store recommends next to any iPhone app: its closest competitors. |
+| `similar_apps` | Apps the App Store recommends next to an app: its closest competitors. |
 | `add_app` | Start tracking an app by its App Store ID. |
 
 ## Things to ask

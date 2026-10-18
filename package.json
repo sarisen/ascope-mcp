@@ -1,6 +1,6 @@
 {
   "name": "ascope-mcp",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "MCP server for Ascope: App Store keyword rankings, popularity and difficulty scores from your Mac.",
   "mcpName": "io.github.sarisen/ascope-mcp",
   "type": "module",

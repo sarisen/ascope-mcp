@@ -1,0 +1,30 @@
+{
+  "$schema": "https://static.modelcontextprotocol.io/schemas/2025-12-11/server.schema.json",
+  "name": "io.github.sarisen/ascope-mcp",
+  "description": "Daily App Store keyword ranks, popularity and difficulty, from Ascope for Mac",
+  "websiteUrl": "https://ascope.app/mcp",
+  "repository": {
+    "url": "https://github.com/sarisen/ascope-mcp",
+    "source": "github"
+  },
+  "version": "0.1.1",
+  "packages": [
+    {
+      "registryType": "npm",
+      "identifier": "ascope-mcp",
+      "version": "0.1.1",
+      "transport": {
+        "type": "stdio"
+      },
+      "environmentVariables": [
+        {
+          "name": "ASCOPE_MCP_URL",
+          "description": "Endpoint of the MCP server that Ascope runs on your Mac. Defaults to http://127.0.0.1:47321/mcp, and a custom port set in Ascope's settings is detected automatically.",
+          "isRequired": false,
+          "isSecret": false,
+          "format": "string"
+        }
+      ]
+    }
+  ]
+}
