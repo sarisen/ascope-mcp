@@ -6,7 +6,7 @@ This package is a small bridge: it speaks stdio to your assistant and forwards e
 
 ## Requirements
 
-- macOS 14 Sonoma or later with [Ascope](https://ascope.app) installed and a Pro license
+- macOS 14 Sonoma or later with [Ascope](https://ascope.app) installed and a Pro license — $89.99 a year, no free tier, refunded in full within 14 days
 - Ascope open, with the server enabled in **Settings → MCP**
 - Node.js 18 or later
 
@@ -67,6 +67,11 @@ Clients that support MCP over Streamable HTTP can also point straight at `http:/
 | `search_apps` | Search the App Store to find an app ID. |
 | `similar_apps` | Apps the App Store recommends next to an app: its closest competitors. |
 | `add_app` | Start tracking an app by its App Store ID. |
+
+The table above is what Ascope serves. With Ascope closed the bridge still
+connects and offers a single `ascope_setup` tool that explains what to install,
+so your assistant tells you what is missing instead of reporting a dead server.
+Open Ascope and the real tools replace it without restarting the client.
 
 ## Things to ask
 
